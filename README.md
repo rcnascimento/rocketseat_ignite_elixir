@@ -1,4 +1,3 @@
-# IgniteElixir
+# Trilha de Elixir do curso Ignite da Rocketseat
 
-**TODO: Add description**
-
+Este mono-repo contém as atividades realizadas durante meus estudos no curso Ignite da RocketSeat.
