@@ -1,10 +1,10 @@
 defmodule SumList do
   @moduledoc """
-  Documentation for `SumList`.
+  Exercício de uso de Recursão.
   """
 
   @doc """
-  Hello world.
+  Itera numa lista de números usando recursão e retorna a soma dos elementos.
 
   ## Exemplo
 
