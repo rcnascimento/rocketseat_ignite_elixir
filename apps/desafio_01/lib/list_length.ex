@@ -1,15 +1,16 @@
 defmodule ListLength do
   @moduledoc """
-  Documentation for `ListLength`.
+  Desafio: Utilizando recursão
   """
 
   @doc """
-  Hello world.
+  Dada uma lista qualquer, conta recursivamente quantos elementos ela possui e
+  retorna esse valor.
 
-  ## Examples
+  ## Exemplo
 
-      iex> ListLength.call()
-      :world
+      iex> ListLength.call([1, 2, 3, 5, 7])
+      5
 
   """
   def call(list) do
