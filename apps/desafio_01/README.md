@@ -1,21 +1,12 @@
-# ListLength
+# Desafio 01 - Utilizando recursão
 
-**TODO: Add description**
+## Descrição
 
-## Installation
+Nesse desafio deve ser criada uma função que, dada uma lista de números calcula **recursivamente** quantos elementos há na lista e retorne esse valor.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `desafio_01` to your list of dependencies in `mix.exs`:
+Para exemplo, temos a seguinte entrada e saída esperada pela função que recebe a lista:
 
-```elixir
-def deps do
-  [
-    {:desafio_01, "~> 0.1.0"}
-  ]
-end
+```bash
+iex> ListLength.call([1, 2, 3, 5, 7])
+...> 5
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/desafio_01](https://hexdocs.pm/desafio_01).
-
