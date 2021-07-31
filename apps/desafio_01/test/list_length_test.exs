@@ -1,5 +1,6 @@
 defmodule ListLengthTest do
   use ExUnit.Case
+  doctest ListLength
 
   describe "call/1" do
     test "retorna a quantidade de elementos de uma lista" do
