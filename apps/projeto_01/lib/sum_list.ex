@@ -6,10 +6,10 @@ defmodule SumList do
   @doc """
   Hello world.
 
-  ## Examples
+  ## Exemplo
 
-      iex> SumList.hello()
-      :world
+      iex> SumList.call([1, 2, 3])
+      6
 
   """
   def call(list), do: sum(list, 0)
